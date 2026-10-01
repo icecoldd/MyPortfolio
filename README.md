@@ -1,23 +1,23 @@
 # MyPortfolio
 
-An early personal portfolio landing page for Ryan Carrasco, built with HTML and CSS. It introduces Ryan as a software engineer and provides direct links to his email, GitHub, and LinkedIn profiles.
+Hi, I'm Ryan Carrasco. This is the start of my personal portfolio, built with HTML and CSS. The current landing page introduces me and links to my email, GitHub, and LinkedIn.
 
-## What's included
+## What's here
 
-- A navigation bar with Ryan's name, section labels, and contact/social links.
-- A full-screen hero section with his name and role over a background image.
-- A small, dependency-free codebase: `index.html` and `index.css`.
+- A navigation bar with my name, section labels, and contact links.
+- A hero section with my name and role over a background image.
+- A simple two-file site: `index.html` and `index.css`.
 
 ## View locally
 
-The stylesheet uses the root-relative path `/index.css`, so serve the folder locally rather than opening `index.html` directly as a file:
+The stylesheet uses the root-relative path `/index.css`, so run a local server from this folder:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Then visit [http://localhost:8000](http://localhost:8000).
+Then open [http://localhost:8000](http://localhost:8000).
 
-## Project status
+## Current status
 
-This repository is an initial landing-page prototype. The **About Me** and **Projects** labels do not yet link to sections, and the page does not currently include project cards or a résumé download. The hero and social images load from external URLs, so their appearance depends on those sites remaining available. The page has no build process or framework dependency.
+I'm still building this portfolio. The **About Me** and **Projects** labels are placeholders; they don't link to sections yet. I haven't added project cards or a résumé download. The images load from external sites, so they may stop appearing if those URLs change.
